@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox
 try:
     from ui.ecc import Ui_Dialog
 except ModuleNotFoundError:
-    from lab_03.ui.ecc import Ui_Dialog
+    from cau3.ui.ecc import Ui_Dialog
 
 
 class MyApp(QDialog):
